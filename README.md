@@ -1,1 +1,4 @@
 # Robomaster2018
+
+该文件夹包含了所有我负责编写的RM2018赛季的代码
+每个工程都是用STMCubmax配置，几乎都采用了RTOS。每个project中包含有PDF，详细描述了配置信息。其中.ios文件可以用STMcubeMX直接打开。
