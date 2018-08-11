@@ -1,0 +1,29 @@
+--cpu Cortex-M3
+"catch\startup_stm32f103xb.o"
+"catch\stm32f1xx_hal_can.o"
+"catch\stm32f1xx_hal_flash_ex.o"
+"catch\stm32f1xx_hal_gpio_ex.o"
+"catch\stm32f1xx_hal_flash.o"
+"catch\stm32f1xx_hal.o"
+"catch\stm32f1xx_hal_rcc.o"
+"catch\stm32f1xx_hal_cortex.o"
+"catch\stm32f1xx_hal_dma.o"
+"catch\stm32f1xx_hal_tim.o"
+"catch\stm32f1xx_hal_tim_ex.o"
+"catch\stm32f1xx_hal_gpio.o"
+"catch\stm32f1xx_hal_pwr.o"
+"catch\stm32f1xx_hal_rcc_ex.o"
+"catch\stm32f1xx_hal_iwdg.o"
+"catch\gpio.o"
+"catch\main.o"
+"catch\can.o"
+"catch\stm32f1xx_it.o"
+"catch\stm32f1xx_hal_msp.o"
+"catch\tim.o"
+"catch\iwdg.o"
+"catch\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Catch\Catch.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Catch.map" -o Catch\Catch.axf

@@ -1,0 +1,86 @@
+Configuration	MainCTR
+STM32CubeMX 	4.20.1
+Date	07/10/2018
+MCU	STM32F405RGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+CAN1	Master	CAN1_RX	PA11
+CAN1	Master	CAN1_TX	PA12
+CAN2	Slave	CAN2_RX	PB12
+CAN2	Slave	CAN2_TX	PB13
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM4	PWM Generation CH3	TIM4_CH3	PB8
+TIM4	PWM Generation CH4	TIM4_CH4	PB9
+UART4	Asynchronous	UART4_RX	PC11
+UART4	Asynchronous	UART4_TX	PC10
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART3	Asynchronous	USART3_RX	PB11
+USART3	Asynchronous	USART3_TX	PB10
+USART6	Asynchronous	USART6_RX	PC7
+USART6	Asynchronous	USART6_TX	PC6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_Output	LED1
+3	PC14-OSC32_IN	GPIO_Output	LED2
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	GPIO_Input	LimitA
+15	PA1	GPIO_Input	LimitB
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+26	PB0	GPIO_Output	BEEP
+29	PB10	USART3_TX	
+30	PB11	USART3_RX	
+33	PB12	CAN2_RX	
+34	PB13	CAN2_TX	
+37	PC6	USART6_TX	
+38	PC7	USART6_RX	
+39	PC8	GPIO_Output	ESP8266_EN
+40	PC9	GPIO_Output	ESP8266_IO
+44	PA11	CAN1_RX	
+45	PA12	CAN1_TX	
+51	PC10	UART4_TX	
+52	PC11	UART4_RX	
+53	PC12	GPIO_Input	SW2
+54	PD2	GPIO_Input	SW1
+58	PB6	USART1_TX	
+59	PB7	USART1_RX	
+61	PB8	TIM4_CH3	
+62	PB9	TIM4_CH4	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : MainCTR
+Project Folder : F:\研究生\比赛\RM2018\嵌入式\补给站\MainCTR
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.13.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

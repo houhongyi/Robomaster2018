@@ -1,0 +1,30 @@
+
+T2B84 000:502 SEGGER J-Link V4.96d Log File (0001ms, 0277ms total)
+T2B84 000:502 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0277ms total)
+T2B84 000:502 Logging started @ 2018-07-17 18:07 (0001ms, 0277ms total)
+T2B84 000:503 JLINK_SetWarnOutHandler(...) (0000ms, 0277ms total)
+T2B84 000:503 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N: 286370559
+Feature(s): RDI,FlashDL,FlashBP,JFlash  returns O.K. (0274ms, 0551ms total)
+T2B84 000:777 JLINK_SetErrorOutHandler(...) (0000ms, 0551ms total)
+T2B84 000:777 JLINK_ExecCommand("ProjectFile = "F:\研究生\比赛\RM2018\嵌入式\补给站\MainCTR\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0003ms, 0554ms total)
+T2B84 000:795 JLINK_ExecCommand("Device = STM32F405RG", ...)Device "STM32F405RG" selected.  returns 0x00 (0009ms, 0563ms total)
+T2B84 000:804 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0563ms total)
+T2B84 000:804 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0563ms total)
+T2B84 000:804 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0563ms total)
+T2B84 000:804 JLINK_GetFirmwareString(...) (0000ms, 0563ms total)
+T2B84 000:874 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0563ms total)
+T2B84 000:874 JLINK_GetCompileDateTime() (0000ms, 0563ms total)
+T2B84 000:882 JLINK_GetFirmwareString(...) (0000ms, 0563ms total)
+T2B84 000:889 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0563ms total)
+T2B84 000:909 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0565ms total)
+T2B84 000:911 JLINK_SetSpeed(200) (0000ms, 0565ms total)
+T2B84 000:911 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                JLINK_EMU_HasCapEx(0x0000002C)  returns 0x01 (0000ms, 0000ms total)
+                returns 0x00000000 (6576ms, 7141ms total)
+T2B84 011:810 JLINK_Close() (0001ms, 7142ms total)
+T2B84 011:810  (0001ms, 7142ms total)
+T2B84 011:810 Closed (0001ms, 7142ms total)
