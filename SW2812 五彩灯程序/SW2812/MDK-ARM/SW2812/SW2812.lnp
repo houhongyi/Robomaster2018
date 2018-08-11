@@ -1,0 +1,31 @@
+--cpu Cortex-M3
+"sw2812\system_stm32f1xx.o"
+"sw2812\mycom.o"
+"sw2812\systemstate.o"
+"sw2812\ws2812.o"
+"sw2812\stm32f1xx_hal_rcc.o"
+"sw2812\stm32f1xx_hal_gpio_ex.o"
+"sw2812\stm32f1xx_hal_tim.o"
+"sw2812\stm32f1xx_hal_flash.o"
+"sw2812\stm32f1xx_hal_cortex.o"
+"sw2812\stm32f1xx_hal_pwr.o"
+"sw2812\stm32f1xx_hal_gpio.o"
+"sw2812\stm32f1xx_hal.o"
+"sw2812\stm32f1xx_hal_tim_ex.o"
+"sw2812\stm32f1xx_hal_dma.o"
+"sw2812\stm32f1xx_hal_rcc_ex.o"
+"sw2812\stm32f1xx_hal_flash_ex.o"
+"sw2812\stm32f1xx_hal_uart.o"
+"sw2812\dma.o"
+"sw2812\gpio.o"
+"sw2812\usart.o"
+"sw2812\stm32f1xx_hal_msp.o"
+"sw2812\main.o"
+"sw2812\stm32f1xx_it.o"
+"sw2812\tim.o"
+"sw2812\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "SW2812\SW2812.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SW2812.map" -o SW2812\SW2812.axf
